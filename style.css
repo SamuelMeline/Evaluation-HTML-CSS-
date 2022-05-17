@@ -1,5 +1,5 @@
-body {
-  background-color: lavender;
+body{
+  background-color: lightgray;
 }
 
 .button {
@@ -10,6 +10,7 @@ body {
 }
 
 .card {
+  margin: 15px;
   padding: 15px;
   background-color: lavender;
 }
