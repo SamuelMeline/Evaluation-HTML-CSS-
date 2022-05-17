@@ -22,3 +22,8 @@ body{
 .paypal-button {
   padding: 20px;
 } 
+
+.card-event {
+  margin: 15px;
+  padding-top: 80px;
+}
