@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Soutiens-nous</title>
+  <title>Aide pour animaux</title>
 </head>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+        <i class="fa-solid fa-shield-dog fa-3x"></i>
+        <a class="navbar-brand" href="#">Apa</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,43 +29,51 @@
                 Adoption
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Chiens</a></li>
-                <li><a class="dropdown-item" href="#">Chats</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dog"></i> Chiens</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cat"></i> Chats</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
+      <div class="button">
+        <div id="paypal-button-container"></div>
+        <script src="https://www.paypal.com/sdk/js?client-id=AUNBBRjwIkFB0SPVZXwh66yz6Q42cQozueHP_BnG9alyF_5-O4mxG4y5vo8OlbgmiMd5V3mqJ-GFV24w&currency=EUR"></script>
+        <script src="paypal.js"></script>
+      </div>
     </nav>
-  </header>
+  </header>  
   <body>
-    <h1>Faire un don :</h1>
-    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
-    <div id="paypal-button-container"></div>
-    <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
-    <script src="paypal.js"></script>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Domino</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Adoptez-le</a>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://lemagduchien.ouest-france.fr/images/dossiers/2017-11/mini/border-collie-1-104015-650-400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Biscuit</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Adoptez-le</a>
+      <div class="card">
+        <img src="https://jardinage.lemonde.fr/images/dossiers/2021-01/adopter-gros-chien-091404.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Roucky</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Adoptez-le</a>
+      <div class="card">
+        <img src="https://jardinage.lemonde.fr/images/dossiers/2018-03/chat-roux-2-111454.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
       </div>
     </div>
   <footer>
