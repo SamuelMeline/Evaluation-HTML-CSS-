@@ -36,7 +36,7 @@ a, a:hover {
   position: relative;
   width: 100%;
   text-align: center;
-  background-color: aliceblue;
+  background-color: white;
   padding: 20px;
 }
 
@@ -55,8 +55,8 @@ a, a:hover {
 }
 
 .about article {
-  margin-top: 5%;
-  ;
+  text-align: justify;
+  padding-top: 5%;
 }
 
 .button {
@@ -74,6 +74,10 @@ a, a:hover {
 
 .card-title {
   text-align: center;
+}
+
+.card-text {
+  text-align: justify;
 }
 
 .paypal-button {
@@ -98,4 +102,8 @@ h2 {
 .blockquote {
   text-align: center;
   margin: 20px;
+}
+
+td, th, caption {
+  text-align: center;
 }
