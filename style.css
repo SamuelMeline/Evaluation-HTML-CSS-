@@ -33,11 +33,11 @@ a, a:hover {
 }
 
 .inner-banner {
-  position: absolute;
-  top: 5%;
-  left: 0;
+  position: relative;
   width: 100%;
   text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
 }
 
 .inner-banner h1 {
