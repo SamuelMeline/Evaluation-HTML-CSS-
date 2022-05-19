@@ -1,109 +1,132 @@
-body, html {
-  padding: 0;
-  margin: 0;
+body,html
+{
+	padding: 0;
+	margin: 0;
 }
 
-body{
-  background-color: lightgray;
-  font-family: 'Raleway' sans-serif;
+body
+{
+	background-color: lightgray;
+	font-family: 'Raleway' sans-serif;
 }
 
-a, a:hover {
-  text-decoration: none;
+a,a:hover
+{
+	text-decoration: none;
 }
 
-.container-fluid {
-  padding: 0;
+.container-fluid
+{
+	padding: 0;
 }
 
-.banner {
-  width: 100%;
-  max-width: 100%;
+.banner
+{
+	width: 100%;
+	max-width: 100%;
 }
 
-.ban {
-  width: 100%;
-  max-width: 100%;
-  position: relative;
+.ban
+{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
 }
 
-.ban img {
-  width: 100%;
-  max-width: 100%;
+.ban img
+{
+	width: 100%;
+	max-width: 100%;
 }
 
-.inner-banner {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  padding: 20px;
+.inner-banner
+{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
 }
 
-.inner-banner h1 {
-  color: lightcoral;
-  text-shadow: 1px 1px 30px wheat;
+.inner-banner h1
+{
+	color: lightcoral;
+	text-shadow: 1px 1px 30px wheat;
 }
 
-#about {
-  text-align: center;
-  padding-top: 5%;
+#about
+{
+	text-align: center;
+	padding-top: 5%;
 }
 
-.about article h2 {
-  text-align: center;
+.about article h2
+{
+	text-align: center;
 }
 
-.about article {
-  text-align: justify;
-  padding-top: 5%;
+.about article
+{
+	text-align: center;
+	padding-top: 5%;
 }
 
-.button {
-  padding: 50px;
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.button
+{
+	padding: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.card {
-  margin: 15px;
-  padding: 15px;
-  background-color: lavender;
+.card
+{
+	margin: 15px;
+	padding: 15px;
+	background-color: lavender;
 }
 
-.card-title {
-  text-align: center;
+.card-title
+{
+	text-align: center;
 }
 
-.card-text {
-  text-align: justify;
+.card-text
+{
+	text-align: justify;
+	text-align: center;
 }
 
-.paypal-button {
-  padding: 20px;
-} 
-
-.card-event {
-  margin: 15px;
-  padding: 20px;
-  text-align: center;
+.paypal-button
+{
+	padding: 20px;
 }
 
-.comment {
-  padding : 20px;
-  text-align: center;
+.card-event
+{
+	margin: 15px;
+	padding: 20px;
+	text-align: center;
 }
 
-h2 {
-  text-align: center;
+.comment
+{
+	padding : 20px;
+	text-align: center;
 }
 
-.blockquote {
-  text-align: center;
-  margin: 20px;
+h2
+{
+	text-align: center;
 }
 
-td, th, caption {
-  text-align: center;
+.blockquote
+{
+	text-align: center;
+	margin: 20px;
+}
+
+td,th,caption
+{
+	text-align: center;
 }
