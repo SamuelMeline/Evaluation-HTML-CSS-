@@ -97,6 +97,11 @@ a,a:hover
 	text-align: center;
 }
 
+.card-footer
+{
+	text-align: center;
+}
+
 .paypal-button
 {
 	padding: 20px;
